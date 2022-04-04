@@ -16,6 +16,7 @@
 
 .about-book-container h1:hover {
     background-color: aqua;
+    color: green;
     border-radius: 10px;
 
 }
@@ -31,4 +32,15 @@
 .home-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.all-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+#customer-number {
+    color: green;
 }

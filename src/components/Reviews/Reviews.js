@@ -1,9 +1,15 @@
-import React from 'react';
+import { useEffect, useState } from "react";
+import useReview from "../../Hooks/UseReview";
+import OtherReview from "../OtherReview/OtherReview";
+
 
 const Reviews = () => {
+    const [reviews, setReviews] = useReview([]);
     return (
         <div>
-            <h1>this is review page</h1>
+            {
+                reviews.map(review => <OtherReview review={review} key={review.id}></OtherReview>)
+            }
         </div>
     );
 };

@@ -1,0 +1,22 @@
+.card {
+    border: 5px solid lightslategrey;
+    margin: 5px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.container h3 {
+    color: green;
+}
+
+#id {
+    font-weight: 700;
+}
+
+#ratings {
+    font-weight: 700;
+}
+
+#review {
+    font-weight: 700;
+}
