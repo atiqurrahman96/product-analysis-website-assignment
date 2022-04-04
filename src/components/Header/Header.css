@@ -1,0 +1,8 @@
+.custom-link-container {
+    background-color: aqua;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
