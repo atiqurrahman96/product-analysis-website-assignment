@@ -6,7 +6,7 @@ const useReview = () => {
         fetch('fakedb.json')
             .then(res => res.json())
             .then(data => setReviews(data))
-    }, [])
+    }, [reviews])
     return [reviews, setReviews];
 }
 export default useReview;

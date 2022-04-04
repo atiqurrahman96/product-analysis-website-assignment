@@ -1,3 +1,7 @@
 #chart-name-style {
     color: green;
 }
+
+.dashboard-container {
+    position: absolute;
+}

@@ -42,7 +42,7 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div>
+        <div className='dashboard-container'>
             <div>
 
                 <LineChart width={700} height={500} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
