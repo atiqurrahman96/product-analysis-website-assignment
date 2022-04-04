@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import useReview from "../../Hooks/UseReview";
 import OtherReview from "../OtherReview/OtherReview";
 
 
 const Reviews = () => {
-    const [reviews, setReviews] = useReview([]);
+    const [reviews] = useReview([]);
     return (
         <div>
             {

@@ -44,3 +44,12 @@
 #customer-number {
     color: green;
 }
+
+
+.button-container button {
+    background-color: cornflowerblue;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 50%;
+}
