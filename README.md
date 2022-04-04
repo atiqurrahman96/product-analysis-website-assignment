@@ -1,4 +1,10 @@
 # Books can be special friend of yours.
+#What I have done in this project . Some of them are given below:
+**I have added navbar where I kept some routes for going any one page to another**
+**I have added customer review**
+**I have added chart**
+**I have added 404 page**
+
 # Getting Started with Create React App
 
 
