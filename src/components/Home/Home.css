@@ -45,11 +45,21 @@
     color: green;
 }
 
+.link-and-card-container {
+    padding-bottom: 10px;
+}
 
-.button-container button {
+
+.link-container a {
     background-color: cornflowerblue;
     font-weight: 700;
+    text-decoration: none;
     padding: 10px;
     border-radius: 5px;
-    margin-top: 30%;
+
+}
+
+.link-container {
+    margin-top: 10px;
+
 }

@@ -3,15 +3,9 @@ import './Home.css'
 import image from '../Home/image/book16.jpg'
 import Review from '../Review/Review';
 import useReview from '../../Hooks/UseReview';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
-    let navigate = useNavigate()
-    const routeChange = () => {
-        let path = `reviews`;
-        navigate(path);
-    }
-
     const [reviews] = useReview([]);
     return (
         <div className='home-container'>
@@ -23,15 +17,19 @@ const Home = () => {
             <div className='img-container'>
                 <img src={image} alt="" />
             </div>
-            <div>
+            <div className='link-and-card-container'>
                 <h1 id='customer-number'>Customer Review: {reviews.length}</h1>
                 <div className='all-card-container'>
                     {
                         reviews.slice(0, 3).map(review => <Review review={review} key={review.id}></Review>)
                     }
                 </div>
+                <div className='link-container'>
+                    <Link to='/reviews'>see detail</Link>
+                </div>
             </div>
-            <div className='button-container'><button onClick={routeChange}>See All Reviews</button></div>
+
+
         </div>
 
 
